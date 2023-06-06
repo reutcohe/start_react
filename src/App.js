@@ -3,12 +3,14 @@ import './App.css';
 import Counter from './comps/counter';
 import InputVal from './comps/inputVal';
 import Message from'./comps/message'
+import Task1 from'./comps/task1'
 
 function App() {
   return (
 
 <div className='countainer'>
   <h1 className='text-denger'>React</h1>
+  <Task1/>
   <Message txt="first"/>
   <InputVal />
   <Counter />
