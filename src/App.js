@@ -10,7 +10,7 @@ function App() {
 
 <div className='countainer'>
   <h1 className='text-denger'>React</h1>
-  <Task2/>
+  {/* <Task2/> */}
   <Task1/>
   <Message txt="first"/>
   <InputVal />
