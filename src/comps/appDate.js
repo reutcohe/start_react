@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ViewDate from './viewDate';
 import InputDate from './inputDate';
 
-export default class appDate extends Component {
+export default class AppDate extends Component {
 
     state = { deadline: "2024-01-01" }
     changeDate = (_newDate) => {
