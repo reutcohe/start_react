@@ -10,7 +10,7 @@ count=0;
 <div>
 
 
-<img src={"/images/"+this.state.pics[count]} width="200"/>
+<img src={"/images/"+this.state.pics[this.count]} width="200"/>
 </div>
         )
     }
