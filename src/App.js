@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import AppHw from './comps/appHw';
+import ShopList from './comps_loop/shopList';
 
 function App() {
  return(
@@ -9,6 +10,8 @@ function App() {
     <h1 className='text-danger'>React</h1>
     <hr/>
     <AppHw/>
+    <hr/>
+  <ShopList/>
     </>
   // </React.Fragment>
  )
