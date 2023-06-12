@@ -6,12 +6,12 @@ export default class ViewDate extends Component {
         this.calcDays(this.props.deadline1)
     }
     componentDidUpdate(_oldPros, _oldState) {
-        if (_oldPros.deadline1 != this.props.deadline1) {
+        if (_oldPros.deadline1 !== this.props.deadline1) {
             this.calcDays(this.props.deadline1)
         }
     }
     calcDays = (_newDate) => {
-        let time = Date.parse(_newDate) - Date.now();
+        // let time = Date.parse(_newDate) - Date.now();
     }
     render() {
         return (
